@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<title>Assignment Solution for Module 2</title>
+</head>
+<style>
+	* {
+		background-color: white;
+		box-sizing: border-box;
+		
+	}
+	h1 {
+		text-align: center;
+	}
+	
+	div {
+		background-color: gray;
+	}
+	p {
+		background-color: gray;
+		margin: 25px 5px 25px 5px;
+	}
+	div > div > div {
+		width: 30%;
+		border: 1px solid black;
+		text-align: center;
+		float: right;
+	}
+	.row {
+		width: 100%;
+	}
+	@media (min-width: 992px) {
+		.col-lg-1, .col-lg-2, .col-lg-3 {
+			font-family: serif;
+			margin: 10px;
+			padding: 0;
+			background-color: gray;
+			border: 1px solid black;
+			float: left;
+
+		}
+		.col-lg-1 {
+			width: 31.80%;
+		}
+		.col-lg-2 {
+			width: 31.80%;
+		}
+		.col-lg-3 {
+			width: 31.80%;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		.col-md-1, .col-md-2, .col-md-3 {
+			font-family: serif;
+			margin: 10px;
+			padding: 0;
+			background-color: gray;
+			border: 1px solid black;
+			float: left;
+		}
+		.col-md-1 {
+			width: 47.6%;
+		}
+		.col-md-2 {
+			width: 47.6%;
+		}
+		.col-md-3 {
+			width: 100%;
+		}
+	}
+	@media (max-width: 767px) {
+		.col-sm-1, .col-sm-2, .col-sm-3 {
+			font-family: serif;
+			margin: 10px;
+			padding: 0;
+			background-color: gray;
+			border: 1px solid black;
+			float: left;
+		}
+		.col-sm-1 {
+			width: 100%;
+		}
+		.col-sm-2 {
+			width: 100%;
+		}
+		.col-sm-3 {
+			width: 100%;
+		}
+	}
+</style>
+<body>
+<h1>Category</h1>
+<div class="row">
+	<div class="col-lg-1 col-md-1 col-sm-1"><div style="background-color: skyblue;">Dance</div>
+		<p>Dance is a performing art form consisting of sequences of movement, either improvised or purposefully selected. This movement has aesthetic and often symbolic value. Dance can be categorized and described by its choreography, by many fields.</p></div>
+	<div class="col-lg-2 col-md-1 col-sm-1"><div style="background-color: orangered;">Photography</div>
+		<p>Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is employed in many.</p></div>
+	<div class="col-lg-3 col-md-3 col-sm-1"><div style="background-color: royalblue;">Singing</div>
+		<p>Singing is the act of producing musical sounds with the voice. A person who sings is called a singer or vocalist (in jazz and popular music). Singers perform music (arias, recitatives, songs, etc.) that can be sung with or without accompaniment by.</p></div>
+</div>
+</body>
+</html>
