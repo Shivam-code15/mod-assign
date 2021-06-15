@@ -1,0 +1,68 @@
+body {
+	background-color: darkgray;
+}
+#header-nav {
+	background-color: royalblue;
+	border: 2px solid #000;
+}
+#navbar-brand {
+	color: black;
+	margin: 15px 0 15px 0;
+
+}
+.navbar-toggle {
+	
+	top: 10px;
+
+}
+#nav-list {
+	background-color: royalblue;
+	box-sizing: border-box;
+}
+#nav-list span {
+	color: black;
+	text-align: center;
+}
+.navbar-collapse {
+	text-align: center;
+	border:  ;
+}
+.navbar-default .navbar-toggle{
+	border-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
+#collapsable-nav {
+border: 1px solid #000;
+}
+.navbar-nav {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	background-color: darkgray;
+	padding: 0;
+}
+h2 {
+	color: black;
+	position: relative;
+}
+section {
+	box-sizing: border-box;
+	border: 2px solid #CCCCCC;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+h3 {
+	color: black;
+	font-family: Helvetica;
+}
+.panel-footer {
+	background-color: whitesmoke;
+	text-align: center;
+	border: 2px solid #fff;
+
+}
